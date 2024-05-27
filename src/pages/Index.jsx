@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <Box>
       {/* Navigation Bar */}
-      <Box as="nav" bg="gray.800" color="white" py={4}>
+      <Box as="nav" bg="#004E7C" color="white" py={4}>
         <Container maxW="container.xl">
           <Flex align="center">
             <Heading as="h1" size="lg" letterSpacing={"tighter"}>
@@ -23,7 +23,7 @@ const Index = () => {
       </Box>
 
       {/* Main Content */}
-      <Container maxW="container.xl" py={8}>
+      <Container maxW="container.xl" py={8} bg="#F3F3F3">
         <VStack spacing={8} align="stretch">
           {/* Headlines Section */}
           <Box>
@@ -66,7 +66,7 @@ const Index = () => {
       </Container>
 
       {/* Footer */}
-      <Box as="footer" bg="gray.800" color="white" py={4} mt={8}>
+      <Box as="footer" bg="#004E7C" color="white" py={4} mt={8}>
         <Container maxW="container.xl">
           <Text textAlign="center">&copy; {new Date().getFullYear()} Financial Times. All rights reserved.</Text>
         </Container>
